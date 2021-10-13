@@ -48,7 +48,13 @@ stages:
             env:
               ModuleVersion: $(NuGetVersionV2)
               GitHubToken: $(GitHubToken)
-
+          - task: PublishPipelineArtifact@1
+            displayName: 'Publish Build Artifact'
+            inputs:
+              targetPath: '$(buildFolderName)/'
+              artifact: $(buildArtifactName)
+              publishLocation: 'pipeline'
+              parallel: true
   - stage: Test
     dependsOn: Build
     jobs:
