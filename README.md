@@ -44,4 +44,3 @@ for some general use scenarios for all of the resources that are in the module.
 
 The resource examples are also available in the [MyModule Wiki](https://github.com/dsccommunity/MyModule/wiki).
 
-# MyModule
