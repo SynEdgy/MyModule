@@ -135,8 +135,8 @@ TaskHeader: |
 GitHubConfig:
   GitHubFilesToAdd:
     - 'CHANGELOG.md'
-  GitHubConfigUserName: dscbot
-  GitHubConfigUserEmail: dsccommunity@outlook.com
+  GitHubConfigUserName: gaelcolas
+  GitHubConfigUserEmail: psgallery@synedgy.com
   UpdateChangelogOnPrerelease: false
 
 ####################################################
